@@ -61,8 +61,8 @@
     $\circ$ 物业扩展：全局物业设备云；新增物业数据库（已通用抽象化）即可部署新的物业。
 \end{rSubsection}
 %-----------------------个人开源项目-----------------------------------------------------
-\begin{rSubsection}{独立设计了一套开发2D游戏的新游戏架构解决方案~~$\cdot$~~Cocos2d-x + MVC~\&~Component}{\textsf{2017.04 - 2017.06}}{}{}%{GEMSB}{October 2013 - Present}{主力程序员}{Palo Alto, CA}
-\item 本方案是针对Cocos2d-x传统开发模式而提出的游戏开发新思路，借鉴了MVC开发模式和组件式编程风格。\\
+\begin{rSubsection}{基于Cocos2d-x引擎开发2D游戏的新架构解决方案~~$\cdot$~~MVC~\&~Component}{\textsf{2017.04 - 2017.06}}{}{}%{GEMSB}{October 2013 - Present}{主力程序员}{Palo Alto, CA}
+\item 本方案是针对Cocos2d-x现有开发问题而提出的游戏开发新思路，借鉴了MVC开发模式和组件式编程风格。该方案改善了游戏开发的复用性、扩展性及模块独立性（低耦合、易分工、分层次开发）；最后，本人借鉴新思路\textbf{独立完成}了一款基于Coco2d-x引擎的仿消除类2D手游，证明了此方案的有效性。\\
     $\diamond$ 项目开源在\textsf{GitHub}：\href{https://github.com/BigoSprite/GameFrameworkIdea}{\underline{\footnotesize{\textsf{https://github.com/BigoSprite/GameFrameworkIdea}}}}\\
     它的\textbf{技术特色}有：\\
     $\circ$ 软件松耦合：基于\emph{消息驱动}的通信机制使得\textsf{\textsc{Mvc}}的各部分相互独立；\\
