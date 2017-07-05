@@ -29,28 +29,27 @@
 \usepackage{wasysym}
 \usepackage{amssymb}
 % -------------------------
-\name{~~夜华} % Your name
+\name{~~韩志伟} % Your name
 \address{~~~~158 2825 1950 $\cdot$ \href{https://mail.163.com}{bigosprite@163.com} }  % Your phone number and email
-\address{~~~~$\Game$网易游戏研发工程师~$\triangleright$~杭州~$\cdot$~ 广州~$\cdot$~深圳} % Your address
-\address{~~~~电子科技大学~~$\cdot$ 2018届硕士} % Your secondary addess (optional)
+\address{~~~~$\Game$游戏研发/C++软件开发~$\triangleright$~杭州~$\cdot$~成都~$\cdot$~深圳~$\cdot$~广州} % Your address
+\address{~~~~电子科技大学~~$\ulcorner$985 211$\lrcorner$~~$\cdot$ 2018届硕士} % Your secondary addess (optional)
 \begin{document}
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{专业技能}
 
-\textbf{编程技能}：熟悉C++11及其编程思想，熟练使用\textsc{Stl}，阅读过C++ 经典书籍；熟悉Cocos2d-x引擎，了解Unity 3D引擎、组件式编程及其UI 系统。了解C\#，JavaScript，Python及PHP\\
-\textbf{学科背景}：具有扎实的图形学，计算机几何基础及现代OpenGL编程能力；对计算机科学的基础知识如算法与数据结构，操作系统及TCP/IP 等有较深入的理解和掌握；熟悉面向对象设计及常用设计模式
+编程技能：熟悉C++(with STL)及其编程思想；熟悉Cocos2d-x，了解组件式编程、Unity 3D引擎及其UI系统\\%了解C\#，JavaScript，Python及PHP\\
+学科背景：具有图形学、计算机几何基础及现代OpenGL编程能力；对基础算法与数据结构、操作系统及计算机网络基础等有较深入的理解和掌握；熟悉面向对象设计及常用设计模式
 \end{rSection}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{项目及个人开源游戏}
+\begin{rSection}{项目及个人开源游戏~~$\cdot$~~\textcolor[rgb]{0.50,0.51,0.53}{\fbox{可现场演示}}}
 % -------------------------科研项目------------------------------------------------------
-\textcolor[rgb]{0.50,0.51,0.53}{\fbox{可现场演示 }}
 \begin{rSubsection}{基于Laravel框架的运维后台管理系统及设备云系统~~$\cdot$~~html5 Web应用}{\textsf{2017.03 - 2017.06}}{}{}
-\item 运维与设备云系统是针对各城市物业开发的配电室管理系统和信息管理中心。本人的工作是负责后端\textsc{Mc}层模块开发。为此，优化了Mysql数据库的设计，定制了数据传输及路由规范，并使用了多种设计模式完成了一个低耦合、高复用、易扩展及易维护的后端软件架构，最后把项目部署在Nginx服务器上，已有多个物业使用。\\
+\item 运维与设备云系统是针对各城市物业开发的配电室管理系统和信息管理中心。本人的工作是负责后端MC层模块开发。为此，优化了Mysql数据库的设计，定制了数据传输及路由规范，并使用了多种设计模式完成了一个低耦合、高复用、易扩展及易维护的后端软件架构；最后把项目部署在Nginx服务器上，已有多个物业使用。\\
     $\diamond$ 项目开源在\textsf{GitHub}：\href{https://github.com/BigoSprite/Maintenance_M6}{\underline{\footnotesize{\textsf{https://github.com/BigoSprite/Maintenance\_M6}}}}\\
     $\diamond$ 网站地址：运维后台：\href{http://221.236.173.192:8889}{\underline{\footnotesize{\textsf{http://221.236.173.192:8889}}}}；设备云端：\href{http://221.236.173.192:8888}{\underline{\footnotesize{\textsf{http://221.236.173.192:8888}}}} \\
     应用的\textbf{特色功能}有：\\
@@ -62,13 +61,13 @@
 \end{rSubsection}
 %-----------------------个人开源项目-----------------------------------------------------
 \begin{rSubsection}{基于Cocos2d-x引擎开发2D游戏的新架构解决方案~~$\cdot$~~MVC~\&~Component}{\textsf{2017.04 - 2017.06}}{}{}%{GEMSB}{October 2013 - Present}{主力程序员}{Palo Alto, CA}
-\item 本方案是针对Cocos2d-x现有开发问题而提出的游戏开发新思路，借鉴了MVC开发模式和组件式编程风格。该方案改善了游戏开发的复用性、扩展性及模块独立性（低耦合、易分工、分层次开发）；最后，本人借鉴新思路\textbf{独立完成}了一款基于Coco2d-x引擎的仿消除类2D手游，证明了此方案的有效性。\\
+\item 本方案是针对Cocos2d-x现有开发问题而提出的新思路，借鉴了MVC开发模式和组件式编程风格。该方案改善了游戏开发中软件的复用性、扩展性及模块独立性（低耦合、职责单一、分层次开发）；最后，本人借鉴新思路\textbf{独立完成}了一款基于Coco2d-x引擎的仿消除类2D手游，证明了此方案的可行性。\\
     $\diamond$ 项目开源在\textsf{GitHub}：\href{https://github.com/BigoSprite/GameFrameworkIdea}{\underline{\footnotesize{\textsf{https://github.com/BigoSprite/GameFrameworkIdea}}}}\\
     它的\textbf{技术特色}有：\\
     $\circ$ 软件松耦合：基于\emph{消息驱动}的通信机制使得\textsf{\textsc{Mvc}}的各部分相互独立；\\
-    $\circ$ 模块性开发：内置了类似Unity 3D中的\emph{组件}（\textsf{\textsc{Component}}）和\emph{预设体}（\textsf{\textsc{Prefab}}）。\\
-    此外，使用了单例模式来管理数据；实现了Dijkstra最短路算法；并对游戏扩展性做了考虑。\\
-    备注：期间因困扰于UI资源，开发了plist文件解包器：\textsf{GitHub}：\href{https://github.com/BigoSprite/EasyUnpacker}{\underline{\footnotesize{\textsf{https://github.com/BigoSprite/EasyUnpacker}}}}
+    $\circ$ 模块性开发：内置了类似Unity 3D中的\emph{组件}（\textsf{\textsc{Component}}）和\emph{预设体}（\textsf{\textsc{Prefab}}）。
+    %此外，使用了单例模式来管理数据；实现了Dijkstra最短路算法；并对游戏扩展性做了考虑。\\
+    %备注：期间因困扰于UI资源，开发了plist文件解包器：\textsf{GitHub}：\href{https://github.com/BigoSprite/EasyUnpacker}{\underline{\footnotesize{\textsf{https://github.com/BigoSprite/EasyUnpacker}}}}
 \end{rSubsection}
 \end{rSection}
 %----------------------------------------------------------------------------------------
@@ -86,8 +85,8 @@
 %----------------------------------------------------------------------------------------
 %	EDUCATION BACKGROUND SECTION
 \begin{rSection}{教育背景}
-\textbf{电子科技大学}，航空航天学院，电子与通信工程专业，硕士。{\em 2015 至今}\\
-\textbf{华北水利水电大学}，数学与信息科学学院，信息与计算科学专业，理学学士。{\em 2011-2015} \\ %\hfill {\em 2011-2015}
-备注：喜欢具有挑战性的工作，本科期间曾三次参加中、美国大学生数学建模竞赛，曾获得河南赛区省一等奖，后因对建模的兴趣以2013年\textbf{国家二等奖}的成绩挤进前\textbf{6.5\%}，随后又取得2014 年美赛二等奖
+\textbf{电子科技大学}，航空航天学院，电子与通信工程专业，专业硕士。{\em 2015.09 至今}\\
+\textbf{华北水利水电大学}，数学与信息科学学院，信息与计算科学专业，理学学士。{\em 2011.09 - 2015.06} \\ %\hfill {\em 2011-2015}
+备注：喜欢接受新事物和挑战，本科期间曾三次参加中、美国大学生数学建模竞赛，曾获得河南赛区省一等奖，后因对建模的兴趣以2013年\textbf{国家二等奖}的成绩挤进前\textbf{6.5\%}，随后又取得2014 年美赛二等奖
 \end{rSection}
 \end{document}
