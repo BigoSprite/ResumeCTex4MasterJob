@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.6.4)  9 JUL 2017 22:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.6.4)  10 JUL 2017 15:27
 entering extended mode
 **F:/workspace/Resume/ResumeCTex4MasterJob/cv_4.tex
 (F:/workspace/Resume/ResumeCTex4MasterJob/cv_4.tex
@@ -687,10 +687,10 @@ Package rerunfilecheck Info: File `cv_4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13704 strings out of 495354
- 219044 string characters out of 3183076
+ 13705 strings out of 495354
+ 219063 string characters out of 3183076
  310420 words of memory out of 3000000
- 16536 multiletter control sequences out of 15000+200000
+ 16537 multiletter control sequences out of 15000+200000
  35329 words of font info for 123 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,5n,29p,858b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -732,7 +732,7 @@ amsfonts/cm/cmsy10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmti10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on cv_4.pdf (1 page, 474863 bytes).
+Output written on cv_4.pdf (1 page, 474946 bytes).
 PDF statistics:
  360 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
